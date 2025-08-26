@@ -42,10 +42,9 @@ public class ApdexTest {
     @Test
     public void testValidarApdexInaceitavel(){
         //Apdex apdex = new Apdex();
-        double result = apdex.validarApdex(0,558962,558962);
-        assertEquals(0.5, result, 0.01);
+        double result = apdex.validarApdex(0,500000,558962);
+        assertEquals(0.44, result, 0.01);
     }
-
 
 }
 
